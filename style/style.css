@@ -113,10 +113,12 @@ li {
     color:white;
     border-radius: 15px;
     border-style: none;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-left: 5px;
+    font-size: 10px;
 }
 
 .bluebox {
@@ -133,4 +135,12 @@ li {
 
 .orangebox {
     background-color: rgba(242,158,51,255);
+}
+
+.fucsiabox {
+    background-color: #d863a1;
+}
+
+.senapebox {
+    background-color: rgba(176,201,38,255);
 }
