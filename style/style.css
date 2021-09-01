@@ -78,7 +78,7 @@ h2 {
     margin-bottom: 10px;
     margin-top: 20px;
 }
-.check {
+.yesno {
     border-radius: 50%;
     width: 16px;
     height: 16px;
@@ -86,11 +86,51 @@ h2 {
     padding-bottom: 3px;
     padding-left: 5px;
     padding-right: 5px;
+    margin-right: 5px;
+}
+
+.check {
     border: 1px solid #6cc4ae;
     color: #6cc4ae;
 }
 
+.cross {
+    color: red;
+    border: 1px solid red;
+}
+
+ul {
+    margin-bottom: 50px;
+}
 li {
     list-style: none;
     font-weight: normal;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.box {
+    color:white;
+    border-radius: 15px;
+    border-style: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bluebox {
+    background-color: rgba(71,173,241,255);
+}
+
+.purplebox {
+    background-color: rgba(156,114,228,255);
+}
+
+.greenbox {
+    background-color: rgba(100,192,169,255);
+}
+
+.orangebox {
+    background-color: rgba(242,158,51,255);
 }
