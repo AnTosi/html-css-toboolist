@@ -2,25 +2,74 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
     height: 100px;
     padding-top: 12px;
     padding-left: 15px;
+    padding-bottom: 12px;
 }
 header img {
+    vertical-align: middle;
     width: 75px;
 }
 
 header h1 {
-    margin-bottom: 100px;
-    font-size: 4rem;
-    font-family: 'Roboto', sans-serif;
+    vertical-align: middle;
+    font-size: 4rem;  
     font-weight: bold;
     display: inline-block;
-    padding-bottom: 10px;
-    margin-left:10px;
-    padding-top: 10px;
-    
+    margin-left: 10px;
     }
+
+#corpo {
+    background-color: rgba(246,248,249,255);
+    width: 100vw;
+    height: 100vh;
+    padding: 30px;
+}    
+
+#contenitore {
+    width: 60vw;
+    margin: auto;
+    height: 600px;
+}
+
+.testata {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 2px;
+}
+.whiteback {
+    background-color: white;
+    width: 60vw;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+}
+
+button {
+    padding:5px;
+}
+
+#task {
+    background-color: rgba(71,173,241,255);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgba(71,173,241,255);
+}
+
+#section {
+    color: rgba(227,230,232,255);
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgba(227,230,232,255);
+}
+
+.triangle {
+    vertical-align: middle;
+    font-size: 12px;
+}
